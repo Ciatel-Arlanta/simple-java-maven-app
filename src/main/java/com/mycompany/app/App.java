@@ -5,15 +5,10 @@ package com.mycompany.app;
  */
 public class App {
 
-    private static final String MESSAGE = "Hello World!";
-
-    public App() {}
-
-    public static void main(String[] args) {
-        System.out.println(MESSAGE);
-    }
-
-    public String getMessage() {
-        return MESSAGE;
-    }
+public int add(int a, int b) {
+return a + b;
+}
+public int multiply(int a, int b) {
+return a * b;
+}
 }
