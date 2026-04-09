@@ -1,5 +1,4 @@
-FROM openjdk:17-jdk-slim
-
+FROM openjdk:27-ea-jdk-slim
 WORKDIR /app
 COPY target/*.jar app.jar
 
